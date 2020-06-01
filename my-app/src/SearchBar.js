@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 
 function SearchBar(props) {
-    console.log('props handle change: ', props.handleChange);
     return (
         <form onSubmit={props.handleSubmit}>
             <label>
